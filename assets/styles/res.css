@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+body{
+    background-color: var(--one-x);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+:root{
+--one-x:#302C42;
+--two-x:#fff;
+--three-x:#000;
+--four-x:#B4ABDD;
+--lin-g-a:linear-gradient(to right, rgba(139,128,184,0.5), rgba(190,181,230,0.5));
+--one-a:1rem;
+--one-b:1.2rem;
+--one-c:1.4rem;
+--one-d:1.6rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
